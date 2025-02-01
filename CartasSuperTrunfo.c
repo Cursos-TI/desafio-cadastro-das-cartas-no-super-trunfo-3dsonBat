@@ -27,34 +27,37 @@ int main() {
     printf("Digite o nome da Cidade: \n");
 
     //input do nome da cidade
-    scanf("%s", &nomeCidade);
+    scanf(" %s", &nomeCidade);
 
     //Solicita o código da Cidade
     printf("Digite o Código da Cidade: \n");
 
     //Input do código da cidade
-    scanf("%s", &codigoCidade);
+    scanf(" %s", &codigoCidade);
 
     //Solicita a população da cidade
     printf("Digite a população da Cidade: \n");
 
     //Input da População da Cidade
-    scanf("%d", &populacao);
+    scanf(" %d", &populacao);
 
     //Solicita a Área da cidade
     printf("Insira a Área da Cidade: \n");
 
     //Input da Área da Cidade
-    scanf("%f", &area);
+    scanf(" %f", &area);
 
     //Solicita Quantidade de Pontos turísticos
     printf("Quantos Pontos Turísticos tem a Cidade %s ? \n", nomeCidade);
 
     //Input do número de pontos turísticos
-    scanf("%d", &pontosTuristicos);
+    scanf(" %d", &pontosTuristicos);
 
     //Solicita o PIB da Cidade
     printf("Qual o PIB (Produto Interno Bruto) da Cidade? \n");
+
+    //Input do PIB
+    scanf("%f", &pib);
 
     //Input do PIB da Cidade
     printf(" Cidade: %s \n Codigo: %s \n População: %d \n PIB: %f \n Área: %f \n Pontos Turísticos: %d", nomeCidade, codigoCidade, populacao, pib, area, pontosTuristicos);
